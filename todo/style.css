@@ -1,0 +1,69 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fcefee;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  h1 {
+    color: #c77dff;
+  }
+
+  .todo-input {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  input[type="text"] {
+    padding: 0.5rem;
+    border: 2px solid #d0bfff;
+    border-radius: 8px;
+    width: 250px;
+    outline: none;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #a3c4f3;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+
+  button:hover {
+    background-color: #85aaf2;
+  }
+
+  .task {
+    background-color: #e7c6ff;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  .task h3 {
+    margin: 0;
+    color: #845ec2;
+  }
+
+  .task p {
+    margin: 0.3rem 0;
+  }
+
+  .task-buttons {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .task-buttons button {
+    flex: 1;
+    font-size: 0.9rem;
+  }
